@@ -1,0 +1,27 @@
+.addPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption {
+    font-size: 20px;
+}
+
+.addPost textarea {
+    width: 300px;
+    margin: 5px;
+}
+
+.addPost button {
+    width: 100px;
+    height: 30px;
+    
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.addPost button:hover {
+    border: 2px solid rgb(2, 61, 0);
+    background-color: rgb(163, 255, 163);
+}

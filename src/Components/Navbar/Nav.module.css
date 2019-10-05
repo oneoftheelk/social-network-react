@@ -1,0 +1,42 @@
+.nav {
+    grid-area: nav;
+
+    padding: 10px;
+
+    background-color: rgb(235, 235, 235);
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(114, 47, 131);
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+nav a.active {
+    color: #000;
+}
+
+.friendsNav {
+    margin: 20px 0 5px 0;
+}
+
+.friends {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+    max-width: 110px;
+
+    font-size: 10px;
+    border: 1px solid rgb(114, 47, 131);
+    border-radius: 5%;
+}
+
+.friends img {
+    width: 30px;
+}

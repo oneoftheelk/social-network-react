@@ -1,0 +1,12 @@
+.login {
+    text-align: center;
+}
+
+.login input {
+    padding: 3px;
+}
+
+.rememberMe {
+    display: flex;
+    justify-content: center;
+}
